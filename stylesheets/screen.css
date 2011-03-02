@@ -1,0 +1,123 @@
+body {
+	background: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#main:after {
+	 content: ".";
+	 display: block;
+	 height: 0;
+	 clear: both;
+	 visibility: hidden;
+}
+
+div#main {
+	min-width: 700px;
+}
+
+div#menu {
+	background: #062473;
+	position: absolute;
+	left: 10px;
+	width: 180px;
+	font-family: helvetica, arial, sans-serif;
+	padding-top: 115px;
+	border-bottom: 3px solid #516097;
+	-webkit-border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	
+}
+
+div#content {
+	padding-top: 20px;
+	margin-left: 200px;
+}
+
+div#links ul {
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+div#links li {
+	padding: 0px;
+}
+
+div#links a, div#links a:link, div#links a#visited {
+	color: #E6E6E6;
+	text-decoration: none;	
+	font-weight: bold;
+	font-size: 11px;
+	padding: 5px 14px 5px 0px;
+	display: block;
+	text-align: right;
+	border-bottom: 1px solid #7987B7;
+}
+
+div#links a.first, div#links a.first:link, div#links a.first#visited {
+	border-top: 1px solid #7987B7;
+}
+
+div#links a:hover {
+	background: #7987B7;
+}
+
+div.item {
+	margin-right: 40px;
+	margin-left: 20px;	
+	font-family: helvetica, arial, sans-serif;
+}
+
+div#barcamb-logo {
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+
+div#date {
+	text-align: center;
+	padding: 20px;
+	font-weight:800;
+	font-stretch:normal;
+	border-bottom: 1px solid #ccc;
+}
+
+div#date p {
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+
+div#sessions, div#tickets, div#map, div#intro {
+	font-size: 13px;
+	line-height: 16px;
+	padding: 0px 10px 10px 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+h1 {
+	font-size: 16px;
+	color: #911810;
+	font-weight: normal;
+	margin-top: 20px;
+}
+
+div#social {
+	text-align: center;
+	font-size: 13px;
+	line-height: 16px;
+	padding: 10px 0px 10px 0px;
+}
+
+a, a:link, a:visited {
+	color: #001E5B;
+}
+
+a:hover {
+	color: #911810;
+}
+
+ul {
+	list-style: square;
+}
