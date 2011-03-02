@@ -4,6 +4,10 @@ body {
 	padding: 0px;
 }
 
+img {
+	border: 0px
+}
+
 div#main:after {
 	 content: ".";
 	 display: block;
@@ -89,7 +93,7 @@ div#date p {
 	padding: 0px;
 }
 
-div#sessions, div#tickets, div#map, div#intro {
+div#suggestions, div#team, div#sponsors, div#sessions, div#tickets, div#map, div#intro {
 	font-size: 13px;
 	line-height: 16px;
 	padding: 0px 10px 10px 10px;
