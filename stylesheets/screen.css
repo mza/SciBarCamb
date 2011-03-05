@@ -33,6 +33,20 @@ div#menu {
 	
 }
 
+div#sidebar {
+	position: absolute;
+	left: 10px;
+	top: 250px;
+	width: 180px;
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+	padding-top: 15px;
+}
+
+div#sidebar p {
+  	font-size: 11px;
+}
+
 div#content {
 	padding-top: 20px;
 	margin-left: 200px;
